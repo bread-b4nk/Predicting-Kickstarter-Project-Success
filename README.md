@@ -125,11 +125,6 @@ for i in range(len(ks_project.index)):
 ks_project["time_spent"] = time_spent
 ```
 
-**_One Hot Encoding_**
-
-I'm not completely sure about the indepth mathematical reasoning behind this, but I can see why it would help increase the accuracy of models; on second thought it would probably be better if I don't put it on this page as it's a huge chunk of data, it's on the Kickstarter Project python file.
-
-
 ### Setting up training and test data
 
 This code doesn't include the cross validation done on the Weka application afterwards, but this was how I originally prepared the training and test data
@@ -231,6 +226,12 @@ gnb_pred = gnb.predict(X_test)
 print(classification_report(y_test,gnb_pred))
 ```
 
+### Preprocessing
+
+**_One Hot Encoding_**
+
+I'm not completely sure about the indepth mathematical reasoning behind this, but I can see why it would help increase the accuracy of models;  it would probably be better if I don't put the code on this page as it's a huge chunk of data,it's on the Kickstarter Project python file. Here's [more information] (https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f) on one hot encoding.
+
 ## Results
 
 **_Results from Jupyter Notebook_**
@@ -245,6 +246,24 @@ Note that these results did not go through cross validation, these were the very
 3              MLP Classifier  60.35
 4          AdaBoostClassifier  64.24
 5           BaggingClassifier  62.00
-6                 Naive Bayes   0.04
+6                 Naive Bayes  59.00
 7   Support Vector Classifier  63.42
 ```
+
+**_Results from WEKA_**
+
+[WEKA](https://www.cs.waikato.ac.nz/ml/weka/) was also used because it could perform [cross validation](https://www.openml.org/a/estimation-procedures/1) more easily, I did only 5 folds to see if the accuracy would increase at all. However my computer was too slow to run Random Forest, SVC, and GradientBoosting Classifier couldn't be found on the software so it's missing three models:
+
+```
+                        Model   Score
+0               Decision Tree   63.59
+1               Random Forest   NaN     
+2  GradientBoostingClassifier   Nan
+3              MLP Classifier   63.10
+4          AdaBoostClassifier   64.68
+5           BaggingClassifier   63.71
+6                 Naive Bayes   53.06
+7   Support Vector Classifier   Nan
+```
+
+Looking at the results most of them improved except for Naive Bayes.
