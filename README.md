@@ -230,7 +230,7 @@ print(classification_report(y_test,gnb_pred))
 
 **_One Hot Encoding_**
 
-I'm not completely sure about the indepth mathematical reasoning behind this, but I can see why it would help increase the accuracy of models;  it would probably be better if I don't put the code on this page as it's a huge chunk of data,it's on the Kickstarter Project python file. Here's [more information] (https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f) on one hot encoding.
+I'm not completely sure about the indepth mathematical reasoning behind this, but I can see why it would help increase the accuracy of models;  it would probably be better if I don't put the code on this page as it's a huge chunk of data,it's on the Kickstarter Project python file. Here's [more information]                                          (https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f) on one hot encoding.
 
 ## Results
 
@@ -258,12 +258,12 @@ Note that these results did not go through cross validation, these were the very
                         Model   Score
 0               Decision Tree   63.59
 1               Random Forest   NaN     
-2  GradientBoostingClassifier   Nan
+2  GradientBoostingClassifier   NaN
 3              MLP Classifier   63.10
 4          AdaBoostClassifier   64.68
 5           BaggingClassifier   63.71
 6                 Naive Bayes   53.06
-7   Support Vector Classifier   Nan
+7   Support Vector Classifier   NaN
 ```
 
 Looking at the results most of them improved except for Naive Bayes.
