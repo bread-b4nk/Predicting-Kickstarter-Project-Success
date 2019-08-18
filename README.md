@@ -1,5 +1,14 @@
 # Kickstarter Project
 
+## Things learnt
+    - a rough idea of how many classification algorithms work: decision trees, random forest, boosting classifier, naive bayes, ADABoost, support vector classifiers
+    - Pandas python library
+    - Numpy python library
+    - SKLearn python library
+    - using WEKA software
+    - preprocessing required before any training e.g. one hot encoding
+    - datetime python library, finding the time between two dates
+    - using Jupyter Notebook
 ## Details
 
 This project was started on the 6th of July, 2018. I started learning about Data Science and how to apply it using python on this [udemy course](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/learn/v4/overview). With no previous knowledge on Data Science, I expect this project to have a lot of room for improvement.
