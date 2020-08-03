@@ -25,20 +25,21 @@ This study aims to be able to predict whether a kickstarter projectwould be succ
 
 All of the coding was done in Python in the Jupyter Notebook. The dataset containing all the information on Kickstarter was from [Kaggle](https://www.kaggle.com/kemical/kickstarter-projects )
 
-```
-Attribute			Description
-ID				      the ID of the project
-name				   the name of the project
-pledged			   sum of money backers “pledged” to donate
-backers			   number of people supporting the project (numeric)
-state				   whether the project was successful or not (binary: successful or failed)
-main_category		generalised type of project (nominal)
-currency			   type of currency used for project (nominal)
-country		    	country of origin of project (nominal)
-deadline			   date for when the project must be funded by (YYYY-MM-DD)
-goal				   set amount of money required for a successful project (numeric)
-launched			   date for when the project was launched (YYYY-MM-DD)
-```
+
+| Attribute		|	Description                                                                |
+| "---         |  :---:                                                                      |
+|ID				|  the ID of the project                                                      |
+|name				|   the name of the project                                                   |
+|pledged			|   sum of money backers “pledged” to donate                                  |
+|backers			|   number of people supporting the project (numeric)                         |
+|state			|	   whether the project was successful or not (binary: successful or failed)|
+|main_category	|	generalised type of project (nominal)                                      |
+|currency		|	   type of currency used for project (nominal)                             |
+|country		   | 	country of origin of project (nominal)                                     |
+|deadline		|	   date for when the project must be funded by (YYYY-MM-DD)                |
+|goal				|   set amount of money required for a successful project (numeric)           |
+|launched		|	   date for when the project was launched (YYYY-MM-DD)                     |
+
 
 ### Acquiring the Data
 
