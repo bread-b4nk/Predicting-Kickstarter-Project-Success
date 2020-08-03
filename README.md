@@ -27,7 +27,7 @@ All of the coding was done in Python in the Jupyter Notebook. The dataset contai
 
 
 | Attribute		|	Description                                                                |
-| "---         |  :---:                                                                      |
+|:------------:|:---------------------------------------------------------------------------:|                                                                      
 |ID				|  the ID of the project                                                      |
 |name				|   the name of the project                                                   |
 |pledged			|   sum of money backers “pledged” to donate                                  |
