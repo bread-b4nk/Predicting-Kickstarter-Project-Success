@@ -1,5 +1,9 @@
 # Kickstarter Project
 
+## Note
+
+I worked on this project at the end of Year 11 (Sophomore) in High School for about 2 months over the summer holiday, if you start reading it'll be pretty clear that I was very inexperienced. So please don't roast me as I probably did many many things that would make a data scientist or computer scientist cringe, but also please criticise anything you find as I want to gain as much as I can from this
+.
 ## Things learnt
    - a rough idea of how many classification algorithms work: decision trees, random forest, boosting classifier, naive bayes, ADABoost, support vector classifiers
    - Pandas python library
@@ -9,13 +13,14 @@
    - preprocessing required before any training e.g. one hot encoding
    - datetime python library, finding the time between two dates
    - using Jupyter Notebook
+   
 ## Details
 
 This project was started on the 6th of July, 2018. I started learning about Data Science and how to apply it using python on this [udemy course](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/learn/v4/overview). With no previous knowledge on Data Science, I expect this project to have a lot of room for improvement.
 
 ## Introduction
 
-With nearly 15 million users funding over $3.7 billion for others, Kickstarter, a Benefit Corporation since 2015, has proven to be a well known and loved by the internet community. It has fulfilled the dreams of many, successfully funding over 146,000 different projects. Kickstarter themselves have already done a bit of research into the projects on their website, looking at the amount of money made for both successful and unsuccessful projects; their results show, however, that only 36% of projects yield success.
+With nearly 15 million users funding over $3.7 billion for others, Kickstarter, a Benefit Corporation since 2015, has proven to be a well known and loved by the internet community. It has fulfilled the dreams of many, successfully funding over 146,000 different projects. Kickstarter themselves have already done a bit of research into the projects on their website, looking at the amount of money made for both successful and unsuccessful projects; their results show, however, that only 36% of projects yield success. I tried to write about this project in a paper-like format, not to publish, but to experience the pain of writing a paper. Check it out [here] (https://docs.google.com/document/d/1SD5ife8D5nP7cLEQLVfWPfhV07v7yKF8x_RC75hX7UE/edit?usp=sharing), as mentioned in the note above, please feel free to point out errors that made you cringe and criticise my work!
 
 ## Objective
 
