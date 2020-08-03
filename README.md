@@ -29,8 +29,8 @@ All of the coding was done in Python in the Jupyter Notebook. The dataset contai
 Attribute			Description
 ID				      the ID of the project
 name				   the name of the project
-pledged			    sum of money backers “pledged” to donate
-backers			    number of people supporting the project (numeric)
+pledged			   sum of money backers “pledged” to donate
+backers			   number of people supporting the project (numeric)
 state				   whether the project was successful or not (binary: successful or failed)
 main_category		generalised type of project (nominal)
 currency			   type of currency used for project (nominal)
